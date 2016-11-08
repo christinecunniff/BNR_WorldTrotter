@@ -1,11 +1,4 @@
 //
-//  AppDelegate.swift
-//  BNR_WorldTrotter
-//
-//  Created by Christine Cunniff on 11/8/16.
-//  Copyright © 2016 Christine Cunniff. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
