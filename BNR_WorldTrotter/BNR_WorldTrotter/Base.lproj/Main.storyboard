@@ -94,7 +94,7 @@
         <!--Map-->
         <scene sceneID="fGu-IB-q5A">
             <objects>
-                <viewController id="hft-tf-HWk" sceneMemberID="viewController">
+                <viewController id="hft-tf-HWk" customClass="MapViewController" customModule="BNR_WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="pa6-Gg-LSN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
