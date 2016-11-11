@@ -103,14 +103,35 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="EqV-Pp-8Pm"/>
+                        <segue destination="ZB7-er-2ql" kind="relationship" relationship="viewControllers" id="u9r-GR-yqc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OLj-zY-ozD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="869.60000000000002" y="133.5832083958021"/>
+            <point key="canvasLocation" x="886" y="134"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="97Z-dR-zRE">
+            <objects>
+                <viewController id="ZB7-er-2ql" customClass="MapViewController" customModule="BNR_WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ozF-fK-vEG"/>
+                        <viewControllerLayoutGuide type="bottom" id="LPO-eu-hp9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kEE-Gr-hqj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="hFl-EU-TPx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bWl-GP-2fu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1670" y="134"/>
         </scene>
     </scenes>
     <resources>
         <image name="ConvertIcon" width="48" height="32"/>
+        <image name="MapIcon" width="48" height="32"/>
     </resources>
 </document>
