@@ -91,32 +91,18 @@
             </objects>
             <point key="canvasLocation" x="1670" y="887"/>
         </scene>
-        <!--Map-->
-        <scene sceneID="fGu-IB-q5A">
-            <objects>
-                <viewController id="hft-tf-HWk" customClass="MapViewController" customModule="BNR_WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="pa6-Gg-LSN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
-                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="nfP-Or-KLT"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C5V-jm-4X8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1670" y="134"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="p7E-uf-ZRU">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="RCS-dv-Kib" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="iMc-fM-wwJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="EqV-Pp-8Pm"/>
-                        <segue destination="hft-tf-HWk" kind="relationship" relationship="viewControllers" id="dEu-Ur-hkT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OLj-zY-ozD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -126,6 +112,5 @@
     </scenes>
     <resources>
         <image name="ConvertIcon" width="48" height="32"/>
-        <image name="MapIcon" width="48" height="32"/>
     </resources>
 </document>
